@@ -68,7 +68,7 @@ class Gerador {
     let retorno = [];
     let j;
 
-    while (i < 25) {
+    while (i < 16) {
       if (i == 12) {
         i++;
         continue;
