@@ -7,7 +7,7 @@ function clickStart() {
     document.querySelector('input[name="tipoBingo"]:checked').value
   );
 
-  if (!listaTotal || listaTotal.length < 30) {
+  if (!listaTotal || listaTotal.length < 22) {
     alert("É necessário uma lista de, pelo menos, 30 items!");
     return;
   }
